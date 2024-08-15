@@ -10,8 +10,7 @@ repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main
 
 _G.Config = { UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", discord_id = 1037147029614362624 , Note = "[LEVEL MAX] UGPHONE - 1", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/trackstatblox"))()
 
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = ""
+
 getgenv().SettingFarm ={
     ["GodHuman"] = true,
     ["Priority Get Melee Sea 3"] = false,
