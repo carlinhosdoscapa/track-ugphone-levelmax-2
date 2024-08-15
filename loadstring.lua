@@ -11,6 +11,7 @@ repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main
 _G.Config = { UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", discord_id = 1037147029614362624 , Note = "[LEVEL MAX] UGPHONE - 1", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/trackstatblox"))()
 
 
+getgenv().Key = "608cd0870cd348122a1dc06b"
 getgenv().SettingFarm ={
     ["GodHuman"] = true,
     ["Priority Get Melee Sea 3"] = false,
@@ -36,38 +37,8 @@ getgenv().SettingFarm ={
         ["Flash Step"] = true,
         ["Observation"] = true,
     },
-    ["Blox Fruit Sniper"] = {
-      "Kitsune-Kitsune",
-      "Leopard-Leopard",
-      "Dragon-Dragon",
-      "Spirit-Spirit",
-      "Control-Control",
-      "Venom-Venom",
-      "Shadow-Shadow",
-      "Dough-Dough",
-      "T-Rex-T-Rex",
-      "Blizzard-Blizzard",
-      "Pain-Pain",
-      "Rumble-Rumble",
-      "Portal-Portal",
-      "Phoenix-Phoenix",
-      "Sound-Sound",
-      "Spider-Spider",
-      "Love-Love",
-      "Buddha-Buddha",
-      "Magma-Magma",
-      "Light-Light"
-    },
-    ["Lock Fruit"] = {
-    "Kitsune-Kitsune",
-      "Leopard-Leopard",
-      "Dragon-Dragon",
-      "Spirit-Spirit",
-      "Control-Control",
-      "Venom-Venom",
-      "Shadow-Shadow",
-      "Dough-Dough"
-    },
+    ["Blox Fruit Sniper"] = {},
+    ["Lock Fruit"] = {},
     ["Webhook"] = {
         ["Enabled"] = false,
         ["WebhookUrl"] = "",
@@ -75,6 +46,4 @@ getgenv().SettingFarm ={
 }
 
 
-
-getgenv().Key = "608cd0870cd348122a1dc06b" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
