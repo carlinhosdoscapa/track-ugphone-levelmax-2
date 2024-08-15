@@ -77,5 +77,5 @@ getgenv().SettingFarm ={
 
 
 
-getgenv().Key = "1400785d3f69359db5dbc06f" 
+getgenv().Key = "608cd0870cd348122a1dc06b" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
